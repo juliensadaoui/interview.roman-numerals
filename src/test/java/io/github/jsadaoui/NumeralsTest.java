@@ -27,5 +27,10 @@ class NumeralsTest {
     assertThat(toRoman(3)).isEqualTo("III");
   }
 
+  @Test
+  void shouldConvertFourToIV() {
+    assertThat(toRoman(4)).isEqualTo("IV");
+  }
+
 
 }
