@@ -22,7 +22,10 @@ class NumeralsTest {
     assertThat(toRoman(2)).isEqualTo("II");
   }
 
-
+  @Test
+  void shouldConvertThreeToIII() {
+    assertThat(toRoman(3)).isEqualTo("III");
+  }
 
 
 }

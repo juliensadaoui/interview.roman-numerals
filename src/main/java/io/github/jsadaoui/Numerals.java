@@ -6,12 +6,12 @@ public final class Numerals {
   }
 
   public static String toRoman(int arabic) {
-    if(arabic == 1) {
-      return "I";
+    String roman = "";
+
+    for (int i = 0;i < arabic; i++) {
+      roman += "I";
     }
-    if(arabic == 2) {
-      return "II";
-    }
-    return "";
+
+    return roman;
   }
 }
