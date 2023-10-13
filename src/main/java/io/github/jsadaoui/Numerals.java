@@ -6,10 +6,10 @@ public final class Numerals {
   }
 
   public static String toRoman(int arabic) {
-    String roman = "";
+    StringBuilder roman = new StringBuilder();
 
     if (arabic >= 10) {
-      roman += "X";
+      roman.append("X");
       arabic -= 10;
     }
 
@@ -22,14 +22,14 @@ public final class Numerals {
     }
 
     if (arabic >= 5) {
-      roman += "V";
+      roman.append("V");
       arabic -= 5;
     }
 
     for (int i = 0;i < arabic; i++) {
-      roman += "I";
+      roman.append("I");
     }
 
-    return roman;
+    return roman.toString();
   }
 }
