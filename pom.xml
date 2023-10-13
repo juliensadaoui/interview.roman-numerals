@@ -43,10 +43,10 @@
                 <version>1.15.1</version>
                 <configuration>
                     <targetClasses>
-                        <param>io.jsadaoui.kata*</param>
+                        <param>io.github.jsadaoui.*</param>
                     </targetClasses>
                     <targetTests>
-                        <param>io.jsadaoui.kata*</param>
+                        <param>io.github.jsadaoui.*</param>
                     </targetTests>
                 </configuration>
                 <dependencies>
