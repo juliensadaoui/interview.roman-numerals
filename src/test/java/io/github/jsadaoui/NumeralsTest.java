@@ -12,5 +12,10 @@ class NumeralsTest {
     assertThat(toRoman(0)).isEmpty();
   }
 
+  @Test
+  void shouldConvertOneToI() {
+    assertThat(toRoman(1)).isEqualTo("I");
+  }
+
 
 }
