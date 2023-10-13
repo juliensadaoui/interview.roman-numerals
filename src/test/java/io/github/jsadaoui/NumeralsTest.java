@@ -33,8 +33,23 @@ class NumeralsTest {
   }
 
   @Test
-  void shouldConvertFourToV() {
+  void shouldConvertFiveToV() {
     assertThat(toRoman(5)).isEqualTo("V");
+  }
+
+  @Test
+  void shouldConvertSixToVI() {
+    assertThat(toRoman(6)).isEqualTo("VI");
+  }
+
+  @Test
+  void shouldConvertSevenToVII() {
+    assertThat(toRoman(7)).isEqualTo("VII");
+  }
+
+  @Test
+  void shouldConvertSevenToVIII() {
+    assertThat(toRoman(8)).isEqualTo("VIII");
   }
 
 
