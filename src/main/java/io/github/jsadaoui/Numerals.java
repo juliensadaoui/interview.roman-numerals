@@ -12,6 +12,10 @@ public final class Numerals {
       return "IV";
     }
 
+    if (arabic == 5) {
+      return "V";
+    }
+
     for (int i = 0;i < arabic; i++) {
       roman += "I";
     }
