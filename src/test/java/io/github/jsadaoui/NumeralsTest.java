@@ -57,4 +57,9 @@ class NumeralsTest {
     assertThat(toRoman(9)).isEqualTo("IX");
   }
 
+  @Test
+  void shouldConvertTenToX() {
+    assertThat(toRoman(10)).isEqualTo("X");
+  }
+
 }
