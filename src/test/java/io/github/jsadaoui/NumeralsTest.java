@@ -17,5 +17,12 @@ class NumeralsTest {
     assertThat(toRoman(1)).isEqualTo("I");
   }
 
+  @Test
+  void shouldConvertTwoToII() {
+    assertThat(toRoman(2)).isEqualTo("II");
+  }
+
+
+
 
 }
