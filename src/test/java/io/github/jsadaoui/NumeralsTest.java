@@ -52,5 +52,9 @@ class NumeralsTest {
     assertThat(toRoman(8)).isEqualTo("VIII");
   }
 
+  @Test
+  void shouldConvertNineToIX() {
+    assertThat(toRoman(9)).isEqualTo("IX");
+  }
 
 }

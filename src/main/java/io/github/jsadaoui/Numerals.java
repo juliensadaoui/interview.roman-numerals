@@ -8,6 +8,10 @@ public final class Numerals {
   public static String toRoman(int arabic) {
     String roman = "";
 
+    if (arabic == 9) {
+      return "IX";
+    }
+
     if (arabic == 4) {
       return "IV";
     }
